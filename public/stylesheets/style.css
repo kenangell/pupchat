@@ -76,3 +76,11 @@ em {
 #messagesDiv > div:nth-child(2n+1) { background-color: #A5D6CD; }
 input { font-size: 20px; padding: 4px; }
 .left { text-align: left; }
+
+
+
+#right {
+ margin: 20px;
+ background-color: #000000;
+ color: red;
+}
