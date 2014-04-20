@@ -1,7 +1,15 @@
 extends layout
 
+block append scripts
+  script(src='https://cdn.firebase.com/js/client/1.0.11/firebase.js')
+  script(src='/javascripts/chat.js')
+
 block content
-  h1= title
-  p Welcome to #{title}
-  div#chatwindow
-    p this is there the chat would go
+ 
+  div#body
+   h1= title
+   p Welcome to #{title}!
+   div#messagesDiv
+   
+   input(name='nameInput', type='text', placeholder='Name')
+   input(name='messageInput', type='text', placeholder='Message...')
