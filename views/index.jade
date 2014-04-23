@@ -5,13 +5,14 @@ block append scripts
   script(src='/javascripts/chat.js')
 
 block content
- 
+
   div#body
    h1= title
    p Welcome to #{title}!
    div#messagesDiv
    
-   input(name='nameInput', type='text', placeholder='Name')
-   input(name='messageInput', type='text', placeholder='Message...')
+   input#nameInput(type='text', placeholder='Name')
+   input#messageInput(type='text', placeholder='Message...')
 
-   div#right Hey there
+
+   

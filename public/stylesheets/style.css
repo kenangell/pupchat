@@ -10,6 +10,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #303030;
   text-align: center;
+  
+
 }
 
 h1 {
@@ -50,7 +52,7 @@ em {
   background-color: white;
   overflow: auto;
   height: 230px;
-  width: 100%;
+  width: 50%;
   padding: 10px;
   border: 8px solid #424547;
   margin-bottom: 5px;
@@ -70,6 +72,8 @@ em {
     font-size: 16px; 
     padding: 0; 
     font-family: Georgia, serif;
+    
+
 }
 
 #messagesDiv > div { padding: 10px 5px; }
@@ -79,10 +83,22 @@ input { font-size: 20px; padding: 4px; }
 
 
 
-#right {
- height:20px;
- width: 20px;
- margin: 20px;
- background-color: #000000;
- color: red;
+#left {
+    height: 20px;
+    width: 20px;
+    margin: 40px;
+    background-color: #FFFFFF;
+    
+    float: left;
+    clear: none;
+}
+
+#right{
+    height: 20px;
+    width: 20px;
+    margin: 40px;
+    background-color: #FFFFFF;
+    
+    float: right;
+    clear: none; 
 }
