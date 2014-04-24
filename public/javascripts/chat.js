@@ -1,8 +1,6 @@
 var firebase = new Firebase('https://incandescent-fire-2010.firebaseio.com/');
 var messagesRef = firebase.child('chat');
 
-messagesRef.push({ name: "test", text: "testing text" });
-
 function getMessageId(snapshot) {
   return snapshot.name().replace(/[^a-z0-9\-\_]/gi,'');
 }
